@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.progress-bar {
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.progress-bar div span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html {
+    background: #e91e65;
+    animation: html 1s linear forwards;
+}
+.css {
+    background: #cddc39;
+    animation: css 1s linear forwards;
+}
+.boostrap {
+    background: #00bcd4;
+    animation: boostrap 1s linear forwards;
+}
+.javascript {
+    background: #ffeb3b;
+    animation: javascript 1s linear forwards;
+}
+.wordpress {
+    background: #bbbbbb;
+    animation: wordpress 1s linear forwards;
+}
+.react {
+    background: #9c27b0;
+    animation: react 1s linear forwards;
+}
+
+.html span {
+    border: 1px solid #e91e65;
+}
+.css span {
+    border: 1px solid #cddc39;
+}
+.boostrap span {
+    border: 1px solid #00bcd4;
+}
+.javascript span {
+    border: 1px solid #ffeb3b;
+}
+.wordpress span {
+    border: 1px solid #bbbbbb;
+}
+.react span {
+    border: 1px solid #9c27b0;
+}
+
+@keyframes html {
+    100% {
+        width: 99%;
+    }
+}
+@keyframes css {
+    100% {
+        width: 80%;
+    }
+}
+@keyframes boostrap {
+    100% {
+        width: 75%;
+    }
+}
+@keyframes javascript {
+    100% {
+        width: 81%;
+    }
+}
+@keyframes wordpress {
+    100% {
+        width: 99%;
+    }
+}
+@keyframes react {
+    100% {
+        width: 55%;
+    }
+}
